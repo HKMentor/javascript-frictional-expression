@@ -14,13 +14,13 @@ var num3 = 13;
 var num4 = 9;
 var sub = num1 - num2;
 // Display the result using alert
-// alert(`Result of subtracting ${num4} from ${num3} is ${sub}.`);
+alert(`Result of subtracting ${num4} from ${num3} is ${sub}.`);
 //multiply
 var num5 = 13;
 var num6 = 9;
 var mult = num5 * num6;
 // Display the result using alert
-// alert(`Result of multiplying ${num5} and ${num6} is ${mult}.`);
+alert(`Result of multiplying ${num5} and ${num6} is ${mult}.`);
 //divide
 var num7 = 13;
 var num8 = 9;
