@@ -1,9 +1,13 @@
 // MATH	EXPRESSIONS
-document.write(` <h1><strong>Hooria_Codehub Javascript 3rd Assignment</strong></h1> `);
+document.write(` <h1><strong>Hooria_Codehub Javascript 2nd Assignment</strong></h1> `);
 // 1. Write a program that take two numbers & add them in a new
-var num1 = 13;
-var num2 = 9;
-var sum = num1 + num2;
+// var num1  = 13;
+// var num2 = 9;
+// var sum = num1 + num2;
+let num1 = prompt("enter your 1st num ")
+let num2 = prompt("enter your 2nd num")
+let sum = num1 + num2;
+
 // Display the result using alert
 alert(`Sum of ${num1} and ${num2} is ${sum}.`);
 
@@ -174,7 +178,7 @@ document.write(`<hr>`);
 // 1 Saudi Riyal = 28 Pakistani Rupee)
 
 document.write(`<h4>Question no 9 : Currency in PKR</h4>`);
-let dollor = 10;
+let  dollor = 10;
 let perDollar = 104;
 let PakRupee = perDollar * dollor;
 
@@ -191,14 +195,14 @@ document.write(`<hr>`);
 // 10. Write a program to initialize a variable with some number
 // and do arithmetic in following sequence:
 document.write(`<h4>Question no 10 </h4>`);
+let num11 =11.6666666666666666;
+let multy = 10;
+let add = 5;
+let div = 2;
+document.write(`${num11} `)
 
-// a. Add 5
-// b. Multiply by 10
-// c. Divide the result by 2
-// Perform all calculations in a single expression.
-let number = 2;
-let result2 = ((number + 5) * 10) / 2;
-alert(` ${result2}`);
+
+
 //hr line
 document.write(`<hr>`);
 
@@ -250,6 +254,29 @@ document.write(`<hr>`);
 // required arithmetic to display the following result in your
 // browser:
 document.write(`<h4>Question no 13 </h4>`);
+// Initialize variable a with a value of 10
+var a = 10;
+
+// Display the initial value of a
+document.write("Result:<br>");
+document.write("The value of a is: " + a + "<br>");
+document.write(".........................................<br><br>");
+
+// Pre-increment (++a)
+document.write("The value of ++a is: " + (++a) + "<br>");
+document.write("Now the value of a is: " + a + "<br><br>");
+
+// Post-increment (a++)
+document.write("The value of a++ is: " + (a++) + "<br>");
+document.write("Now the value of a is: " + a + "<br><br>");
+
+// Pre-decrement (--a)
+document.write("The value of --a is: " + (--a) + "<br>");
+document.write("Now the value of a is: " + a + "<br><br>");
+
+// Post-decrement (a--)
+document.write("The value of a-- is: " + (a--) + "<br>");
+document.write("Now the value of a is: " + a + "<br>");
 
 //hr line
 document.write(`<hr>`);
